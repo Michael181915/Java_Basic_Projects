@@ -1,0 +1,119 @@
+package by.zti.main;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
+import javax.swing.JTextArea;
+import javax.swing.JButton;
+import javax.swing.JSpinner;
+import java.awt.Choice;
+import javax.swing.JLabel;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Font;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+
+public class MainWindow extends JFrame {
+
+	private JPanel panel1;
+	private JPanel panel2;
+	private JTabbedPane tabbedPane;
+	private JTextArea textArea;
+	private JButton btnGetImage;
+	private JButton btnGetFile;
+	private Choice choice;
+	private JLabel lblNewLabel;
+	private JButton button;
+	private JMenuBar menuBar;
+	private JMenu menuFile;
+	private JMenuItem menuItem;
+	private JMenu mnNewMenu;
+	private JMenuItem mnExit;
+
+	public MainWindow(int width, int height) {
+		setTitle("Просмотр изображений");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
+		setSize(630, 416);
+		//setSize(width, height);
+		getContentPane().setLayout(null);
+		
+		//JPanel panel1 = new JPanel(null);
+		panel1 = new JPanel(null);
+		panel2 = new JPanel(null);
+		
+		tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+		tabbedPane.setBounds(10, 32, 604, 346);
+		getContentPane().add(tabbedPane);
+		setResizable(true);
+		tabbedPane.addTab("Tab 1", panel1);
+		panel1.setLayout(null);
+		
+		textArea = new JTextArea();
+		textArea.setFont(new Font("Monospaced", Font.PLAIN, 12));
+		textArea.setText("Введите название ссылки URL:\r\n" + "(Enter the link name URL)");		
+		textArea.setBounds(10, 45, 581, 266);
+		panel1.add(textArea);
+		
+		//JButton btnGetImage = new JButton("\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435");
+		btnGetImage = new JButton("Получить изображение");
+		btnGetImage.addActionListener(e -> System.out.println("Изображение получено!"));
+		/*btnGetImage.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println(1);
+			}
+		});*/
+		btnGetImage.setBounds(10, 11, 177, 23);
+		panel1.add(btnGetImage);
+		
+		//JButton btnGetFile = new JButton("\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0444\u0430\u0439\u043B");
+		btnGetFile = new JButton("Получить файл");
+		btnGetFile.addActionListener(f -> System.out.println("Файл получен!"));
+		btnGetFile.setBounds(197, 11, 151, 23);
+		panel1.add(btnGetFile);
+		tabbedPane.addTab("Tab 2", panel2);
+		
+		choice = new Choice();
+		choice.setBounds(537, 10, 52, 20);
+		panel2.add(choice);
+		
+		choice.add("png");
+		choice.add("jpg");
+		
+		//JLabel lblNewLabel = new JLabel("\u0424\u043E\u0440\u043C\u0430\u0442 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F:");
+		lblNewLabel = new JLabel("Формат изображения:");
+		lblNewLabel.setBounds(399, 14, 132, 14);
+		panel2.add(lblNewLabel);
+		
+		//JButton button = new JButton("\u041E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435 \u043A\u0430\u043D\u0432\u0430\u0441\u0430");
+		button = new JButton("Обновление канваса");
+		button.addActionListener(k -> System.out.println("Канвас обновлён!"));
+		button.setBounds(10, 10, 191, 23);
+		panel2.add(button);
+		
+		menuBar = new JMenuBar();
+		menuBar.setBounds(0, 0, 634, 21);
+		getContentPane().add(menuBar);
+		
+		menuFile = new JMenu("Файл");
+		menuBar.add(menuFile);
+		
+		menuItem = new JMenuItem("Сохранить изображение");
+		menuFile.add(menuItem);
+		
+		mnNewMenu = new JMenu("Дополнительные возможности");
+		menuBar.add(mnNewMenu);
+		
+		mnExit = new JMenuItem("Выход");
+		mnNewMenu.add(mnExit);
+		
+		menuBar.repaint();
+		menuFile.repaint();
+		menuItem.repaint();
+		mnNewMenu.repaint();
+		//mnExit.repaint();		
+		//setVisible(true); 
+	}
+}

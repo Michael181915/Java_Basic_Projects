@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Count {
+
+    public static void main(String arg[]) throws Exception
+    {
+            int lineCount=0;
+            String s;
+            BufferedReader buf=new BufferedReader(new InputStreamReader(System.in));
+            System.out.print("Enter filename : ");
+            s=buf.readLine();
+            buf=new BufferedReader(new FileReader(s));
+            while((s=buf.readLine())!=null)
+            {
+                    lineCount++;
+            }
+            System.out.println("Line Count : "+lineCount);
+            buf.close();
+    }
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="(37)TableSwing/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/Array/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/Calculator/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/FirstProgram/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/GUI/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/GUI2/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/Heredity/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/InputDates/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/IPname/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/Methods/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/PasswordManager/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/ReadFile/src"/>
+	<classpathentry kind="src" path="(OLD)workspace (the simple projects)/Thread/src"/>
+	<classpathentry kind="src" path="(Sp1)FirstProgramm/src"/>
+	<classpathentry kind="src" path="ттт"/>
+	<classpathentry kind="src" path="Array Blocking Queue/src"/>
+	<classpathentry kind="src" path="Array/src"/>
+	<classpathentry kind="src" path="Calculator/src"/>
+	<classpathentry kind="src" path="Collection/src"/>
+	<classpathentry kind="src" path="Constructor/src"/>
+	<classpathentry kind="src" path="CountLittle/src"/>
+	<classpathentry kind="src" path="Exceptions/src"/>
+	<classpathentry kind="src" path="FirstProgram/src"/>
+	<classpathentry kind="src" path="FirstProgramm/src"/>
+	<classpathentry kind="src" path="GitTest/GitTestProject/src"/>
+	<classpathentry kind="src" path="GUI/src"/>
+	<classpathentry kind="src" path="GUI2/src"/>
+	<classpathentry kind="src" path="Heredity/src"/>
+	<classpathentry kind="src" path="InputDates/src"/>
+	<classpathentry kind="src" path="IPname/src"/>
+	<classpathentry kind="src" path="IPPname/src"/>
+	<classpathentry kind="src" path="IPpnetwork/src"/>
+	<classpathentry kind="src" path="Methods/src"/>
+	<classpathentry kind="src" path="NoteSwing/src"/>
+	<classpathentry kind="src" path="PasswordManager/src"/>
+	<classpathentry kind="src" path="ReadFile/src"/>
+	<classpathentry kind="src" path="SecondProgramm/src"/>
+	<classpathentry kind="src" path="Serialization-ObjectsOutputStream/src"/>
+	<classpathentry kind="src" path="Swing/src"/>
+	<classpathentry kind="src" path="Swing2/src"/>
+	<classpathentry kind="src" path="Swing3/src"/>
+	<classpathentry kind="src" path="Swing4/src"/>
+	<classpathentry kind="src" path="Synchronized/src"/>
+	<classpathentry kind="src" path="SynchronizedBlock/src"/>
+	<classpathentry kind="src" path="SynchronizedBlock2/src"/>
+	<classpathentry kind="src" path="Thread/src"/>
+	<classpathentry kind="lib" path="(OLD)workspace (the simple projects)/PasswordManager2/a1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="PasswordManager2/a1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Serialization-ObjectsOutputStream/ZTI-Serialization-Tool.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="(37)TableSwing/bin"/>
+</classpath>

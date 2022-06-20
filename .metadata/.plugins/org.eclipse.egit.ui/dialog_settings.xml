@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Michael181915/GitTest.git"/>
+		<item value="https://github.com/Michael181915/Git-test.git"/>
+		<item value="ssh://github.com/Michael181915/GitTest.git"/>
+		<item value="https://git@github.com/Michael181915/GitTest.git"/>
+		<item value="git@github.com:Michael181915/GitTest.git"/>
+		<item value="git@github.com:Michael181915/Git-test.git"/>
+		<item value="ssh://github.com/Michael181915/Git-test"/>
+		<item value="ssh://git@github.com/Michael181915/Git-test.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Michael &lt;Michael@DESKTOP-VKPK1UU&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Michael &lt;Michael@DESKTOP-VKPK1UU&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="true"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Michael\git\Git-test\.git">
+			<item value="false"/>
+			<item value="Michael &lt;DESKTOP-VKPK1UU&gt;"/>
+			<item value="i have just created a new java&#x0D;&#x0A;&#x0D;&#x0A;"/>
+			<item value="Michael &lt;DESKTOP-VKPK1UU&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="D:\workspace\GitTest\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+</section>

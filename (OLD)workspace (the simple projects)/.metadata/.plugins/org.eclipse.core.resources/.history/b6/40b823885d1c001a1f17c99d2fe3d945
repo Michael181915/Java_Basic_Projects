@@ -1,0 +1,17 @@
+package IPname;
+
+import javax.swing.JFrame;
+
+public class Main extends JFrame implements Runnable{
+	static private Socket connection;
+	public static void main(String[] args){
+		
+	}
+
+	@Override
+	public void run() {
+		connection = new Socket();
+		
+	}
+
+}

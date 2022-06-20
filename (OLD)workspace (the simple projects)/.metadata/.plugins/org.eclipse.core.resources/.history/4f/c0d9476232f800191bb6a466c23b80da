@@ -1,0 +1,16 @@
+import java.util.Formatter;
+import java.util.Scanner;
+
+public class WriteFile {
+	
+	static Formatter x;
+	static Scanner scn;
+	
+	public static void main(String args[]) {
+		try {
+			x = new Formatter("res//1.txt");
+		}catch(Exception e) {}
+	}
+
+
+}

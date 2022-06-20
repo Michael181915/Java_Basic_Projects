@@ -1,0 +1,38 @@
+//package easybudda.evenwordslinecounter;
+ 
+import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.PrintWriter;
+import java.io.IOException;
+
+public class Count {
+	public static void main(String[ ] args) throws IOException {
+		String line;//строка, прочтенная из файла
+		String[ ] Numbers;//для слов, найденных в строке
+		double d;//результат преобразования слова в число
+		BufferedReader input = null;
+		PrintWriter out = null;
+		try {
+		input= new BufferedReader(new FileReader("file.txt"));
+		out=new PrintWriter("file_copy.txt");
+		while ((line = input.readLine()) != null) {
+		Numbers=line.split("\\s+");//разбор строки на отдельные числа
+		for(int j=0;j<Numbers.length;j++){
+		try{//при преобразовании может возникнуть исключение
+		d=Double.parseDouble(Numbers [ j ]);
+		 /*Здесь следует добавить свой код,
+		* обрабатывающий j-ое слово или d - результат его * преобразования в число
+		*/
+		out.println(line);System.out.println(line);
+		}//try
+		catch(Exception e){ }//если в число преобразуется пустая строка
+		}//for
+		out.println();//закончить строку в окне терминала и перейти к новой
+		}//while
+		}//try
+		finally {
+		if (input != null) {input.close();}
+		if (out != null) {out.close();}
+		}//finally
+		}
+}
